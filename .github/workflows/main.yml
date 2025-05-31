@@ -14,5 +14,5 @@ jobs:
       - name: Long running step
         run: |
           echo "Starting long job..."
-          sleep 300  # Sleep for 5 minutes
+          sleep 600  # Sleep for 5 minutes
           echo "Job finished"
